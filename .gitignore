@@ -1,0 +1,5 @@
+# WeX5
+#
+# 忽略.cache、.release目录
+.cache/
+.release/
