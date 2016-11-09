@@ -1,3 +1,11 @@
+.login-window-panel {
+	background: radial-gradient(center center , ellipse cover , rgb(255, 255, 255) 24% , rgb(221, 221, 221) 69%);
+	background: -o-radial-gradient(center center , ellipse cover , rgb(255, 255, 255) 24% , rgb(221, 221, 221) 69%);
+	background: -ms-radial-gradient(center center , ellipse cover , rgb(255, 255, 255) 24% , rgb(221, 221, 221) 69%);
+	background: -moz-radial-gradient(center center , ellipse cover , rgb(255, 255, 255) 24% , rgb(221, 221, 221) 69%);
+	background: -webkit-radial-gradient(center center , ellipse cover , rgb(255, 255, 255) 24% , rgb(221, 221, 221) 69%);
+}
+
 .text-black{ color:#000;}
 .text-danger{ color:#ea413c;}
 
