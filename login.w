@@ -35,11 +35,19 @@
           </div> 
         </div> 
       </div>  
-      <a component="$UI/system/components/justep/button/button" class="btn list-group x-black btn-only-label btn-block" label="登录" xid="loginBtn" style="background-color:#ee9c13;color:#4C4C4C;border-width:0px 0px 0px 0px;height:44px;"> 
+      <a component="$UI/system/components/justep/button/button" class="btn x-black btn-lg btn-only-label btn-block text-info list-group" label="登  录" xid="loginBtn" style="background-color:#ee9c13;color:#4C4C4C;border-width:0px 0px 0px 0px;"> 
         <i xid="i4" />  
-        <span xid="span4">登录</span> 
+        <span xid="span4">登  录</span> 
       </a>  
-      </div><div class="x-panel-bottom" xid="bottom1" visible="false"></div> 
+      <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="忘记密码？" xid="forgetPwd" style="float:right;">
+   <i xid="i2"></i>
+   <span xid="span5">忘记密码？</span></a>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
+   <div class="x-col" xid="col4"></div>
+   <div class="x-col" xid="col5" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn x-gray btn-only-label" label="注  册" xid="registerBtn" style="color:#4C4C4C;border-color:#B3B3B3 #B3B3B3 #B3B3B3 #B3B3B3;padding:5px 20px 5px 20px;">
+   <i xid="i1"></i>
+   <span xid="span1">注  册</span></a></div>
+   <div class="x-col" xid="col6"></div></div></div><div class="x-panel-bottom" xid="bottom1" visible="false"></div> 
   </div> 
 <resource xid="resource2"><require xid="require2" url="css!$UI/mine/aiwojia/css/font-awesome/css/fa.icons"></require></resource>
   </div>
