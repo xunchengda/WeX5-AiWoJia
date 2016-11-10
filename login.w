@@ -21,7 +21,7 @@
         <div class="list-group-item"> 
           <div class="input-group" xid="div7"> 
             <span class="input-group-addon" xid="span2"> 
-              <i class="fa fa-user-o" /> 
+              <i class="fa fa-user fa-fw" /> 
             </span>  
             <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="nameInput" placeHolder="用户名/手机号" />
           </div> 
@@ -29,7 +29,7 @@
         <div class="list-group-item" xid="div6"> 
           <div class="input-group" xid="div8"> 
             <span class="input-group-addon" xid="span3"> 
-              <i class="linear linear-lock" xid="i3" /> 
+              <i class="fa fa-lock fa-fw" xid="i3" /> 
             </span>  
             <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="passwordInput" placeHolder="密码" />
           </div> 
@@ -39,7 +39,7 @@
         <i xid="i4" />  
         <span xid="span4">登  录</span> 
       </a>  
-      <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="忘记密码？" xid="forgetPwd" style="float:right;">
+      <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="忘记密码？" xid="forgetPwd" style="float:right;color:#666666;">
    <i xid="i2"></i>
    <span xid="span5">忘记密码？</span></a>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
