@@ -33,19 +33,11 @@
         <div class="list-group-item" xid=""> 
           <div class="input-group" xid=""> 
             <span class="input-group-addon" xid=""> 
-              <i class="fa fa-envelope fa-fw" xid="" /> 
+              <i class="fa fa-id-card fa-fw" xid="" /> 
             </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="emailInput" placeHolder="电子邮箱" />
+            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="emailInput" placeHolder="身份证号" />
           </div> 
-        </div> 
-        <div class="list-group-item" xid=""> 
-          <div class="input-group" xid=""> 
-            <span class="input-group-addon" xid=""> 
-              <i class="fa fa-building fa-fw" xid="" /> 
-            </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="companyInput" placeHolder="公司名称" />
-          </div> 
-        </div> 
+        </div>
         <div class="list-group-item" xid="div6"> 
           <div class="input-group" xid="div8"> 
             <span class="input-group-addon" xid="span3"> 
@@ -57,10 +49,12 @@
         <div class="list-group-item" xid=""> 
           <div class="input-group" xid=""> 
             <span class="input-group-addon" xid=""> 
-              <i class="fa fa-fw" xid="" /> 
+              <i class="fa fa-commenting fa-fw" xid="" /> 
             </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="confirmPasswordInput" placeHolder="确认密码" />
-          </div> 
+            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="confirmPasswordInput" placeHolder="验证码" style="width:60%;"/>
+          <a component="$UI/system/components/justep/button/button" class="btn x-green btn-sm" label="获取验证码" xid="getSmsBtn" style="line-height:0px;padding: 16px;width:100px;margin-left:20px;">
+   <i xid="i1"></i>
+   <span xid="span1">获取验证码</span></a></div> 
         </div>  
       </div>  
       <a component="$UI/system/components/justep/button/button" class="btn x-black btn-lg btn-only-label btn-block text-info list-group" label="注    册" xid="loginBtn" style="background-color:#ee9c13;color:#4C4C4C;border-width:0px 0px 0px 0px;"> 
