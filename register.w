@@ -35,7 +35,7 @@
             <span class="input-group-addon" xid=""> 
               <i class="fa fa-id-card fa-fw" xid="" /> 
             </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="emailInput" placeHolder="身份证号" />
+            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="idInput" placeHolder="身份证号" />
           </div> 
         </div>
         <div class="list-group-item" xid="div6"> 
@@ -51,17 +51,17 @@
             <span class="input-group-addon" xid=""> 
               <i class="fa fa-commenting fa-fw" xid="" /> 
             </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="confirmPasswordInput" placeHolder="验证码" style="width:60%;"/>
+            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="smsInput" placeHolder="验证码" style="width:60%;"/>
           <a component="$UI/system/components/justep/button/button" class="btn x-green btn-sm" label="获取验证码" xid="getSmsBtn" style="line-height:0px;padding: 16px;width:100px;margin-left:20px;">
    <i xid="i1"></i>
    <span xid="span1">获取验证码</span></a></div> 
         </div>  
       </div>  
-      <a component="$UI/system/components/justep/button/button" class="btn x-black btn-lg btn-only-label btn-block text-info list-group" label="注    册" xid="loginBtn" style="background-color:#ee9c13;color:#4C4C4C;border-width:0px 0px 0px 0px;"> 
+      <a component="$UI/system/components/justep/button/button" class="btn x-black btn-lg btn-only-label btn-block text-info list-group" label="注    册" xid="registerBtn" style="background-color:#ee9c13;color:#4C4C4C;border-width:0px 0px 0px 0px;"> 
         <i xid="i4" />  
         <span xid="span4">注    册</span> 
       </a>  
-      <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="我有帐号，直接登录" xid="button2" style="float:right;color:#666666;">
+      <a component="$UI/system/components/justep/button/button" class="btn btn-link" label="我有帐号，直接登录" xid="gotoLoginBtn" style="float:right;color:#666666;">
    <i xid="i6"></i>
    <span xid="span7">我有帐号，直接登录</span></a></div><div class="x-panel-bottom" xid="bottom1" visible="false"></div> 
   </div> 
