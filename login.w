@@ -44,7 +44,7 @@
    <span xid="span5">忘记密码？</span></a>
   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
    <div class="x-col" xid="col4"></div>
-   <div class="x-col" xid="col5" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn x-gray btn-only-label" label="注  册" xid="registerBtn" style="color:#4C4C4C;border-color:#B3B3B3 #B3B3B3 #B3B3B3 #B3B3B3;padding:5px 20px 5px 20px;">
+   <div class="x-col" xid="col5" style="text-align:center;"><a component="$UI/system/components/justep/button/button" class="btn x-gray btn-only-label" label="注  册" xid="registerBtn" style="color:#4C4C4C;border-color:#B3B3B3 #B3B3B3 #B3B3B3 #B3B3B3;padding:5px 20px 5px 20px;" onClick="btnClickRegister">
    <i xid="i1"></i>
    <span xid="span1">注  册</span></a></div>
    <div class="x-col" xid="col6"></div></div></div><div class="x-panel-bottom" xid="bottom1" visible="false"></div> 

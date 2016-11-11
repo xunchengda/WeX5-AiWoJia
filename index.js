@@ -10,6 +10,12 @@ define(function(require) {
 		var shellImpl = new ShellImpl(this, {
 			"contentsXid" : "pages",
 			"pageMappings" : {
+				"login":{
+					url:require.toUrl('./login.w')
+				},
+				'register':{
+					url:require.toUrl('./register.w')
+				},
 				"main" : {
 					url : require.toUrl('./main.w')
 				},
@@ -33,6 +39,9 @@ define(function(require) {
 				},
 				"success" : {
 					url : require.toUrl('./success.w')
+				},
+				"user":{
+					url:require.toUrl('user.w')
 				}
 			}
 		});
@@ -51,7 +60,11 @@ define(function(require) {
 	};
 
 	Model.prototype.modelLoad = function(event){
-		justep.Shell.showPage("main");
+		var user=localStorage.getItem("user");
+		if(user==null)
+			justep.Shell.showPage('login');
+		else
+			justep.Shell.showPage("main");
 	};
 
 	return Model;

@@ -10,6 +10,9 @@ define(function(require) {
 	Model.prototype.toUrl = function(url){
 		return url ? require.toUrl(url) : "";
 	};
+	Model.prototype.btnClickRegister=function(event){
 	
+		justep.Shell.showPage('register');
+	}
 	return Model;
 });
