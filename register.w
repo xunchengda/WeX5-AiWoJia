@@ -51,8 +51,8 @@
             <span class="input-group-addon" xid=""> 
               <i class="fa fa-commenting fa-fw" xid="" /> 
             </span>  
-            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="smsInput" placeHolder="验证码" style="width:60%;"/>
-          <a component="$UI/system/components/justep/button/button" class="btn x-green btn-sm" label="获取验证码" xid="getSmsBtn" style="line-height:0px;padding: 16px;width:100px;margin-left:20px;">
+            <input component="$UI/system/components/justep/input/input" class="form-control x-inputText" xid="smsInput" placeHolder="验证码" style="width:40%;"/>
+          <a component="$UI/system/components/justep/button/button" class="btn x-green btn-sm" label="获取验证码" xid="getSmsBtn" style="line-height:0px;padding: 16px;width:120px;margin-left:20px;float:right;">
    <i xid="i1"></i>
    <span xid="span1">获取验证码</span></a></div> 
         </div>  
