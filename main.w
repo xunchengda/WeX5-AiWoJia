@@ -24,23 +24,24 @@
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"> 
     <div class="x-panel-content tb-trans"> 
       <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full"
-        active="0" xid="contents2" swipe="false" wrap="false" slidable="false" onActiveChange="contents2ActiveChange"> 
+        active="0" xid="contents" swipe="false" wrap="false" slidable="false" onActiveChange="contents2ActiveChange"> 
         <div class="x-contents-content x-cards" xid="homeContent"> 
           <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-has-iosstatusbar"> 
               
             <div class="x-panel-top" xid="top1"> 
-              <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="爱我家" style="background-color:#cccccc;"> 
-                <div class="x-titlebar-left" xid="div6"> 
-                  </div>  
-                <div class="x-titlebar-title" xid="div1">爱我家</div>  
-                <div class="x-titlebar-right reverse" xid="div5"> 
-                  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top" xid="button8" icon="linear linear-rocket" style="width:44px;height:44px;"> 
-                    <i xid="i8" class="linear linear-rocket" />  
-                    <span xid="span8"></span> 
-                  </a> 
-                </div> 
-              </div> 
-            </div><div class="x-panel-content  x-scroll-view" xid="content3" style="bottom: 0px;"> 
+	            <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBarHome" title="爱我家" style="background-color:#cccccc;"> 
+	                <div class="x-titlebar-left" xid="div6"> 
+	                  </div>  
+	                <div class="x-titlebar-title" xid="div1">爱我家</div>  
+	                <div class="x-titlebar-right reverse" xid="div5"> 
+	                  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top" xid="button8" icon="fa fa-bars" style="width:44px;height:44px;"> 
+	                    <i xid="i8" class="fa fa-bars" />  
+	                    <span xid="span8"></span> 
+	                  </a> 
+	                </div> 
+	              </div>
+              </div>
+              <div class="x-panel-content  x-scroll-view" xid="content3" style="bottom: 0px;"> 
               <div class="x-scroll" component="$UI/system/components/justep/scrollView/scrollView"
                 xid="scrollView" onPullDown="scrollViewPullDown"> 
                 <div class="x-content-center x-pull-down container" xid="div16"> 
@@ -159,22 +160,44 @@
             </div> 
           </div> 
         </div>  
-        <div class="x-contents-content x-cards" xid="microContent"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="navContainer2" src="./micro.w" autoLoad="false"/> 
-        </div>  
-        <div class="x-contents-content x-cards" xid="foundContent"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="navContainer3" src="./found.w" autoLoad="false"/> 
-        </div>  
-        <div class="x-contents-content x-cards" xid="shoppingContent" onInactive="shoppingContentInactive"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="navContainer4" src='./cart.w' autoLoad="false"/> 
-        </div>  
         <div class="x-contents-content x-cards" xid="userContent"> 
-          <div component="$UI/system/components/justep/windowContainer/windowContainer"
-            class="x-window-container" xid="navContainer5" src="./user.w" autoLoad="false"/> 
-        </div> 
+          <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full">
+   <div class="x-panel-top" xid="top2">
+   	<div class="x-panel-top" xid="top1"> 
+     <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" style="color:#4C4C4C;background-color:#CCC;">
+	   <div class="x-titlebar-left" xid=""><a component="$UI/system/components/justep/button/button" class="btn btn-link" xid="back" icon="fa fa-angle-left fa-fw" target="homeContent" style="padding: 5px;">
+   <i xid="i3" class="fa fa-angle-left fa-fw"></i>
+   <span xid="span3"></span></a></div>
+	   <div class="x-titlebar-title" xid="title1"></div>
+	   <div class="x-titlebar-right reverse" xid=""></div>
+   	 </div>
+    </div>
+   </div>
+   <div class="x-panel-content" xid="content1"><div component="$UI/system/components/justep/row/row" class="x-row" xid="avatarRow" style="height:40%;max-height:480px;background-color:#CCC;">
+   <div class="x-col" xid="col1"></div>
+   <div class="x-col" xid="col2"><div xid="avatarDiv" style="width: 90%; max-width:200px; height:100%; margin: 0 auto;"><img src="$UI/mine/aiwojia/main/img/avatar.jpg" alt="" xid="avatarImg" style="width: 100%;" class="img-circle img-thumbnail"></img><h5 xid="usernameLabel" style="text-align:center;color:#4C4C4C;"><![CDATA[李四]]></h5><h5 xid="growupPointsLabel" style="text-align:center;color:#4C4C4C;"><![CDATA[我的成长值：720]]>
+  </h5><h5 xid="userPointsLabel" style="text-align:center;color:#4C4C4C;"><![CDATA[我的积分：50]]></h5></div>
+  
+  
+  </div>
+   <div class="x-col" xid="col3"></div></div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1" style="background-color:white; margin-top:10px;">
+   <div class="x-col" xid="col5" style="padding: 0 25px 10px 25px;">
+   	<h4 xid="myOrderTitle" class="page-header" style="color: #666;"><![CDATA[我的订单]]></h4>
+  <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified" tabbed="true" xid="buttonGroup2"><a component="$UI/system/components/justep/button/button" class="btn btn-icon-top" label="待付款" xid="button1" icon="fa fa-credit-card fa-fw" style="color:#666666;">
+   <i xid="i2" class="fa fa-credit-card fa-fw"></i>
+   <span xid="span2">待付款</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-icon-top" label="待收货" xid="button2" icon="fa fa-truck fa-fw" style="color:#666666;">
+   <i xid="i4" class="fa fa-truck fa-fw"></i>
+   <span xid="span4">待收货</span></a>
+  <a component="$UI/system/components/justep/button/button" class="btn btn-icon-top" label="全部订单" xid="button3" icon="fa fa-list-alt" style="color:#666666;">
+   <i xid="i6" class="fa fa-list-alt"></i>
+   <span xid="span6">全部订单</span></a></div></div>
+   </div>
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2" style="background-color:white; margin-top:10px;">
+   <div class="x-col" xid="col8" style="padding: 0 25px 10px 25px;"></div>
+   </div></div>
+   <div class="x-panel-bottom" xid="bottom2"></div></div></div> 
       </div> 
     </div>  
     <div class="x-panel-bottom" xid="bottom1" height="55"> 
@@ -193,4 +216,4 @@
       </div> 
     </div> 
   </div> 
-</div>
+<resource xid="resource2"><require xid="require1" url="css!$UI/mine/aiwojia/css/font-awesome/css/fa.icons"></require></resource></div>

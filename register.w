@@ -6,12 +6,15 @@
   
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full login-window-panel"
     xid="panel1"> 
-    <div class="x-panel-top" xid="top1" visible="true"><div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="会员注册" style="background-color:#B3B3B3;color:#4C4C4C;">
-   <div class="x-titlebar-left" xid="left1"><a component="$UI/system/components/justep/button/button" class="btn btn-link" xid="back" icon="fa fa-angle-left">
-   <i xid="i5" class="fa fa-angle-left"></i>
-   <span xid="span6"></span></a></div>
-   <div class="x-titlebar-title" xid="title1">会员注册</div>
-   <div class="x-titlebar-right reverse" xid="right1"></div></div></div>
+    <div class="x-panel-top" xid="top1" visible="true">
+    <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar" xid="titleBar1" title="会员注册" style="color:#4C4C4C;background-color:#CCC;">
+	   <div class="x-titlebar-left" xid="left1"><a component="$UI/system/components/justep/button/button" class="btn btn-link" xid="back" icon="fa fa-angle-left fa-fw" style="padding: 5px;">
+	   <i xid="i5" class="fa fa-angle-left fa-fw"></i>
+	   <span xid="span6"></span></a></div>
+	   <div class="x-titlebar-title" xid="title1">会员注册</div>
+	   <div class="x-titlebar-right reverse" xid="right1"></div>
+   </div>
+   </div>
     <div class="x-panel-content  x-cards container" xid="content1"> 
       <div xid="div1" class="list-group"> 
         <div class="list-group-item"> 

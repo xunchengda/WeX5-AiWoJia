@@ -140,15 +140,6 @@ define(function(require) {
 	Model.prototype.onRestoreContent = function(event) {
 		this.comp("contents2").to(this.lastContentXid);
 	};
-	// 记住当前content，切换到购物车页
-	Model.prototype.onShoppingContent = function(event) {
-		this.lastContentXid = this.comp("contents2").getActiveXid();
-		this.comp("contents2").to("shoppingContent");
-		var shoppingModel = this.comp("navContainer4").getInnerModel();
-		if (shoppingModel) {
-			shoppingModel.showBackBtn(true);
-		}
-	};
 	// 切换到首页
 	Model.prototype.onHomeContent = function(event) {
 		this.comp("contents2").to("homeContent");
@@ -158,10 +149,10 @@ define(function(require) {
 		var to = event.to;
 		if (to >= 1) {
 			// 优化内存占用
-			$('.x-window-container', this.comp('content2').$domNode).css('display', 'none');
-			this.comp('navContainer' + (to + 1)).$domNode.css('display', 'block');
-
-			this.comp('navContainer' + (to + 1)).load();
+//			$('.x-window-container', this.comp('content2').$domNode).css('display', 'none');
+//			this.comp('navContainer' + (to + 1)).$domNode.css('display', 'block');
+//
+//			this.comp('navContainer' + (to + 1)).load();
 		}
 
 	};
